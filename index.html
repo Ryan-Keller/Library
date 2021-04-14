@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bookInput" id="bookInput">
+    <h1 class="h1title"><mark>Library App <br> take a look its in a book</mark></h1>
+
+</div>
+<div class="middlePage" id="middlePage">
+    <p class="userInput" id="userInput">
+        <mark class="formTitle">Fill these out when you have a book you want to track</mark><br>
+        <label for="Book Maker"><br>
+
+            <input type="text" name="bookTitle" id="bookTitle" placeholder="Book Title" value = 'Harry'>
+            <input type="text" name="Author" id="author" placeholder="Author">
+            <input type="text" name="pageNum" id="pageNum" placeholder="# of Pages"><br>
+            <button onclick="addBookToLibrary()">Add to Bookcase</button>
+
+        </label>
+    </p>
+
+</div>
+
+
+</body>
+<script src="app.js"></script>
+</html>

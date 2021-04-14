@@ -1,0 +1,28 @@
+.bookInput {
+    background-color: aquamarine;
+    background-image: url(/imgs/360px-Pelican_books.jpg);
+    height: 20vh;
+
+}
+
+.h1title {
+    font-weight: 200;
+    font-family: monospace;
+    padding-left: 10vh;
+    padding-top: 5vh;
+    font-size: 35pt;
+}
+
+mark{
+    background-color: #faca2d;
+    color: #9575f5;
+}
+
+.middlePage{
+    display: flexbox;
+
+    background-color: crimson;
+    margin: auto;
+    margin-top: 2vh;
+    padding: 50px;
+}
